@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia dos namorados! </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logo.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Início</a>
+            <a href="#"> Séries</a>
+            <a href="#"> Filmes</a>
+            <a href="#"> Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Sofia e Vinicius </p>
+            <p class="detalhes">
+                <span> 8 DE FEVEREIRO,  6 EPISÓDIOS</span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                </span>
+                <p class="descricao">
+Seis meses. Meio ano. Vinte e seis semanas. Cento e oitenta e três dias.
+Não que eu esteja contando... mas com você, até o tempo tem mais graça.
+Estar ao seu lado nesses seis meses foi como viver uma mistura perfeita de episódio de Gilmore Girls com um livro que nunca dá vontade de fechar. Porque você é tipo uma Rory, mas com alma de Lorelai. Inteligente, doce, meio sarcástica às vezes (eu amo), e com aquele jeito único de ver o mundo, como quem sempre enxerga além da capa dura ou da primeira impressão.
+E se você me perguntar, não, nossa história não veio de um roteiro pronto. Não teve narração em off, nem música melancólica no fundo. Mas teve riso, teve caos, teve aquela intensidade boa que só existe quando tudo é de verdade.
+Você sempre falou que o livro é melhor que o filme em riqueza de detalhes. Que nas páginas tudo faz mais sentido, que os detalhes ganham vida, que a história é mais profunda. E eu concordo. Mas, com a gente, foi o contrário. Porque por mais que eu tenha criado ideias, expectativas, cenas na cabeça... o que vivemos foi ainda melhor. Foi real. Foi imperfeito às vezes, mas tão mais bonito por isso…
+Se nossa relação fosse um livro, seria daquele tipo que a gente lê até a última letra, mas também quer ler devagar só pra não acabar. E se fosse uma série, com certeza eu imploraria por mais temporadas. Sem fim.
+Obrigado por esses seis meses, por cada conversa, cada silêncio, cada olhar, cada risada no meio do nada. Por ser meu lugar seguro, meu café forte nos dias nublados, minha personagem principal favorita.
+Eu te amo. E mal posso esperar pelo que vem depois do nosso próximo capítulo.
+
+
+                </p>
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i> Continuar</button>
+                    <button> <i class="fa-solid fa-star"></i> Favorito</button>
+                </div>
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos </h2>
+
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"> <img src="./fotos/1.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/2.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/3.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/4.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/5.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/6.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/7.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/8.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/9.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/1.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/2.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/3.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/4.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/6.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/7.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/8.png"> </div>
+            <div class="swiper-slide"> <img src="./fotos/9.png"> </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        08/02/2025
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction:false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop:true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween: 15,
+                },
+                900: {
+                    loop:true,
+                    slidesPerView:4,
+                    spaceBetween: 40,       
+                }
+            }
+            });
+    </script>
+</body>
+</html>
